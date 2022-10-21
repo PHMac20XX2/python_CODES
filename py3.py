@@ -1,7 +1,7 @@
 n1 = 5
 n2 = 10
 
-print ( 100 * '-')
+print ( 100 * '-' )
 
 if n1 >= 5:
     print ('Valor da Adição: ', n1 + n2)
@@ -18,4 +18,4 @@ if n1 >= 5:
 else:
     print ("Operador inexistente")
     
-print ( 100 * '-')
+print ( 100 * '-' )
