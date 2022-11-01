@@ -15,7 +15,7 @@ opcao = int(input('''
 [1] Adição
 [2] Multiplicação
 [3] Subtração
-[4] Divisão
+[4] Divisão \n
 Escolha uma operação: '''))
 
 if opcao == 1:
