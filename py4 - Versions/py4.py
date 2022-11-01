@@ -23,5 +23,3 @@ elif imcV <= 24.9:
 elif imcV <= 29.9:
     print ('Você está acima do peso')
     
-    
-input ('Pressione ENTER para continuar')
