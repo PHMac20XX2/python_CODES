@@ -16,15 +16,15 @@ opcao = int(input('''
 [2] Multiplicação
 [3] Subtração
 [4] Divisão
-Escolha uma operação:'''))
+Escolha uma operação: '''))
 
 if opcao == 1:
-    print(ad1)
+    print("Resultado (Adição): ", ad1)
 elif opcao == 2:
-    print (mul1)
+    print ("Resultado (Multiplicação): ", mul1)
 elif opcao == 3:
-    print (sub1)
+    print ("Resultado (Subtração): ", sub1)
 elif opcao == 4:
-    print (div1)
+    print ("Resultado (Divisão): ", div1)
 else:
     print ("Operador invalido")
