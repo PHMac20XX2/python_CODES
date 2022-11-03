@@ -7,4 +7,4 @@ if num1.isnumeric():
     else:
         print(f'{num1} é um número impar!')
 else:
-    print(f'O termo "{num1}" digitado nao é um número inteiro positivo!')
+    print(f'O termo "{num1}" digitado nao é um número inteiro!')
