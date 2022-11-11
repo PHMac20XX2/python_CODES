@@ -1,7 +1,11 @@
+# Calculadora de valores fixos by PHM
+
+print (100 * "-")
+print ("Calculadora fixa")
+print (100 * "-")
+
 n1 = 5
 n2 = 10
-
-print ( 100 * '-' )
 
 if n1 >= 5:
     print ('Valor da Adição: ', n1 + n2)

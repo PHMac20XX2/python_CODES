@@ -11,6 +11,8 @@ mul1 = n1 * n2
 sub1 = n1 - n2 
 div1 = n1 / n2
 
+print(100 * '-')
+
 opcao = int(input('''
 [1] Adição
 [2] Multiplicação
