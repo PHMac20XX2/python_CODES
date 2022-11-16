@@ -1,3 +1,5 @@
+import getpass
+
 print ("")
 print ("   Pagamentos PHM   ")
 print (50 * "-")
@@ -12,12 +14,17 @@ opcao = int (input (''' Tipos de cartão aceito
 if opcao == 1:
     print ("")
     print ("Opção escolhida: Crédito")
+    
+    print (50 * "-")
+    
     senha_bd = 1234
-    senha = int(input ("Digite a senha: "))
+    senha = int (getpass.getpass (prompt= "Digite a senha: ", stream=None))
+    
+    
 print (50 * "-")
     
 if senha == senha_bd:
-    print (" SUA CONTA ")
+    print ("SUA CONTA")
 else: 
     print (50 * "-")
     print ("Senha Errada")
